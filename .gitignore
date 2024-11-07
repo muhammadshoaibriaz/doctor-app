@@ -1,0 +1,79 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo files
+.expo/
+.expo-shared/
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+*.log.*
+
+# React Native Android files
+/android/.gradle
+/android/app/build/
+/android/build/
+/android/.idea/
+android/key.properties
+android/local.properties
+
+# iOS files
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/DerivedData/
+/ios/*.xcworkspace
+ios/.symlinks/
+!ios/Podfile
+
+# Buck build files
+buck-out/
+\.buckconfig.local
+\.buckconfig
+.buckversion
+.buckd/
+
+# Fastlane files
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Gradle files
+**/*.lock
+**/gradle-wrapper.properties
+gradle.properties
+gradlew
+gradlew.bat
+
+# Bundler config
+**/.bundle
+**/Gemfile.lock
+
+# Temporary files
+.temp
+.temp_local
+
+# VS Code files
+.vscode/
+.history/
+
+# Testing files
+/coverage
+/jest-test-results.json
+
+# Miscellaneous
+.env
+*.keystore
+*.jks
+.idea/
+*.iml
+*.hprof
+
+# Ignore build files from Expo
+**/web-build/
+**/dist/
